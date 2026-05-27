@@ -1,0 +1,7 @@
+body {
+    background-image: url("/trans.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: deepskyblue;
+}

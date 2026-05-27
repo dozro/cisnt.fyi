@@ -1,0 +1,53 @@
+@import url(https://fonts.bunny.net/css?family=amaranth:400,400i,700,700i|noto-color-emoji:400|noto-emoji:300,400,500,600,700);
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay-box {
+    max-width: 600px;
+    margin: 10vh auto;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.55);
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(4px);
+    font-family: 'Amaranth', 'Noto Color Emoji', 'Noto Emoji', sans-serif;
+    color: aliceblue;
+}
+
+.overlay-box h1 {
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+.overlay-box p {
+    line-height: 1.6;
+}
+
+a {
+    color: #DCA1A1;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1.5px;
+    transition: color 0.15s ease, text-decoration-color 0.15s ease, transform 0.1s ease;
+}
+
+a:hover {
+    color: #FFD6D6;
+    text-decoration-color: #3D1D1D;
+}
+
+a:active {
+    color: #3D1D1D;
+}
+
+a:focus-visible {
+    outline: 2px solid #FFD6D6;
+    outline-offset: 2px;
+    border-radius: 2px;
+}
